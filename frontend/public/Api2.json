@@ -1,0 +1,154 @@
+[
+    {
+      "id": 1,
+      "name": "Atomic Habits",
+      "rating": "4.8/5",
+      "description": "A practical guide to building good habits and breaking bad ones with proven strategies.",
+      "image": "ah.jpg",
+      "link": "https://oceanofpdf.com/genres/nonfiction/pdf-atomic-habits-an-easy-and-proven-way-to-build-good-habits-and-break-bad-ones-download/"
+    },
+    {
+      "id": 2,
+      "name": "Rick Dad Poor Dad",
+      "rating": "4.6/5",
+      "description": "A classic on personal finance, highlighting the difference between working for money and making money work for you.",
+      "image": "rpdp.jpg",
+      "link": "https://oceanofpdf.com/authors/robert-t-kiyosaki/pdf-epub-rich-dad-poor-dad-what-the-rich-teach-their-kids-about-money-that-the-poor-and-middle-class-do-not-download/"
+    },
+    {
+      "id": 3,
+      "name": "It Ends with Us",
+      "rating": "4.4/5",
+      "description": "A moving story of love, resilience, and difficult choices in the face of emotional turmoil.",
+      "image": "iend.jpg",
+      "link": "https://oceanofpdf.com/authors/colleen-hoover/pdf-epub-it-ends-with-us-download-93527661663/"
+    },
+    {
+      "id": 4,
+      "name": "Verity",
+      "rating": "4.3/5",
+      "description": " A gripping psychological thriller that blurs the line between truth and fiction.",
+      "image": "v.jpg",
+      "link": "https://oceanofpdf.com/authors/colleen-hoover/pdf-epub-verity-download/"
+    },
+    {
+      "id": 5,
+      "name": "The Kite Runner",
+      "rating": "4.7/5",
+      "description": "A heart-wrenching tale of friendship, betrayal, and redemption set in Afghanistan.",
+     "image": "kr.jpg",
+      "link": "https://oceanofpdf.com/authors/khaled-hosseini/pdf-epub-the-kite-runner-graphic-novel-download-59029863550/"
+    },
+    {
+      "id": 6,
+      "name": "A Thousand Splendid Suns",
+      "rating": "4.8/5",
+      "description": "A powerful story of female resilience and friendship in the face of hardship.",
+      "image":"tss.jpg",
+      "link": "https://oceanofpdf.com/authors/khaled-hosseini/pdf-epub-a-thousand-splendid-suns-download-45102930457/"
+    },
+    {
+        "id": 7,
+        "name": "Game of Thrones A-Z",
+        "rating": "4.5/5",
+        "description": "An epic fantasy filled with political intrigue, complex characters, and shocking twists.",
+        "image": "got.jpg",
+        "link": "https://oceanofpdf.com/authors/martin-howden/pdf-epub-game-of-thrones-a-z-download/"
+      },
+      {
+        "id": 8,
+        "name": "Think and Grow Rich",
+        "rating": "4.2/5",
+        "description": "A motivational classic emphasizing the power of mindset and perseverance in achieving success.",
+        "image": "tgr.jpg",
+        "link": "https://oceanofpdf.com/authors/napoleon-hill/pdf-epub-think-and-grow-rich-download/"
+      },
+      {
+        "id": 9,
+        "name": "The Psychology of Money",
+        "rating": "4.5/5",
+        "description": "A fresh take on how people think about money, wealth, and happiness.",
+        "image": "pm.jpg",
+        "link": "https://oceanofpdf.com/authors/morgan-housel/pdf-epub-the-psychology-of-money-download/"
+      },
+      {
+        "id": 10,
+        "name": "The Silent Patient",
+        "rating": "4.2/5",
+        "description": "A psychological thriller about a therapist unraveling the mystery behind a mute patient’s violent act.",
+        "image": "sp.jpg",
+        "link": "https://oceanofpdf.com/authors/alex-michaelides/pdf-the-silent-patient-download/"
+      },
+      {
+        "id": 11,
+        "name": "The Alchemist",
+        "rating": "4.5/5",
+        "description": "A philosophical journey about following your dreams and discovering your purpose.",
+        "image": "ta.jpg",
+        "link": "https://oceanofpdf.com/authors/paulo-coelho/pdf-epub-the-alchemist-download/"
+      },
+      {
+        "id": 12,
+        "name": "It Starts With Us",
+        "rating": "4.3/5",
+        "description": "A heartfelt continuation of It Ends with Us focusing on healing and new beginnings.",
+        "image": "iswu.jpg",
+        "link": "https://oceanofpdf.com/authors/colleen-hoover/pdf-epub-it-starts-with-us-it-ends-with-us-2-download-12305396099/"
+      },
+      {
+        "id": 13,
+        "name": "Twisted Love",
+        "rating": "4.0/5",
+        "description": "A steamy romance with dark secrets and intense chemistry between the protagonists.",
+        "image": "tl.jpg",
+        "link": "https://oceanofpdf.com/authors/ana-huang/pdf-twisted-love-twisted-1-download/"
+      },
+       {
+        "id": 14,
+        "name": "Normal People",
+        "rating": "4.4/5",
+        "description": "A raw and tender story about the complex relationship between two people as they navigate love, friendship, and personal growth through different phases of life.",
+        "image": "np.jpg",
+        "link": "https://oceanofpdf.com/authors/sally-rooney/pdf-epub-normal-people-download-96943605270/"
+      },
+      {
+        "id": 15,
+        "name": "A Good Girls Guide to Murder",
+        "rating": "4.6/5",
+        "description": "A clever and suspenseful YA mystery about solving a cold case in a small town.",
+        "image": "gm.jpg",
+        "link": "https://oceanofpdf.com/authors/holly-jackson/pdf-a-good-girls-guide-to-murder-a-good-girls-guide-to-murder-1-download/"
+      },
+      {
+        "id": 16,
+        "name": "Things we got Over",
+        "rating": "4.2/5",
+        "description": "Running from the life and finally got someone perfect for your life.",
+        "image": "twg.jpg",
+        "link": "https://oceanofpdf.com/authors/mark-manson/pdf-epub-the-subtle-art-of-not-giving-a-fuck-download/"
+      },
+      {
+        "id": 17,
+        "name": "Read People like a Book",
+        "rating": "4.0/5",
+        "description": " A practical guide to understanding and analyzing human behavior and emotions.",
+        "image": "rp.jpg",
+        "link": "https://oceanofpdf.com/authors/patrick-king/pdf-read-people-like-a-book-how-to-analyze-understand-and-predict-peoples-emotions-thoughts-intentions-and-behaviors-how-to-be-more-likable-and-charismatic-book-9-download/"
+      },
+      {
+        "id": 18,
+        "name": "Ikigai",
+        "rating": "4.4/5",
+        "description": "  A beautiful exploration of the Japanese concept of finding purpose and living a meaningful life.",
+        "image": "ig.jpg",
+        "link": "https://oceanofpdf.com/authors/michael-luck/pdf-epub-ikigai-the-japanese-art-for-finding-happiness-and-the-meaning-of-life-download/"
+      }
+      
+      
+
+
+  ]
+
+
+
+
