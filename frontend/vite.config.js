@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
-// ✅ Use your repo name in base (case-sensitive)
 export default defineConfig({
-  base: '/Mood-Conexus/',
   plugins: [react()],
+  base: '/Mood-Conexus/'
 })
