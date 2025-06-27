@@ -1,9 +1,9 @@
 {
   "name": "mood-conexus",
+  "homepage": "https://seemab24.github.io/Mood-Conexus/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://seemab24.github.io/Mood-Conexus",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
