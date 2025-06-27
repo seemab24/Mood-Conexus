@@ -1,0 +1,146 @@
+[
+    {
+      "id": 1,
+      "name": "Attack on Titan",
+      "rating": "8.52",
+      "description":"Humanity fights Titans after their walls are breached.",
+      "image": "aot.jpg",
+      "link": "https://9animetv.to/search?keyword=attack+on+titan"
+    },
+    {
+      "id": 2,
+      "name": "Jujutsu-Kaisen",
+      "rating": "8.94",
+      "description": "Sorcerers battle curses and moral dilemmas.",
+      "image": "jjk.jpg",
+      "link": "https://9animetv.to/search?keyword=jjk"
+    },
+    {
+        "id": 3,
+        "name": "Spy X Family",
+        "rating": "9.08",
+        "description": "A spy family hides secrets while pursuing peace.",
+        "image": "sxf.jpg",
+        "link": "https://9animetv.to/search?keyword=spy+x+family"
+      },
+      {
+        "id": 4,
+        "name": "One Piece",
+        "rating": "7.12",
+        "description": "Pirates race for legendary treasure.",
+        "image": "op.jpg",
+        "link": "https://9animetv.to/search?keyword=one+piece"
+      },
+      {
+        "id": 5,
+        "name": "Solo Leveling",
+        "rating": "8.39",
+        "description": "A weak hunter gains power to fight monsters.",
+        "image": "sl.jpg",
+        "link": "https://9animetv.to/search?keyword=solo+leveling"
+      },
+      {
+        "id": 6,
+        "name": "Death Note",
+        "rating": "8.63",
+        "description": "A student uses a deadly notebook to reshape the world",
+        "image": "dn.jpg",
+        "link": "https://9animetv.to/search?keyword=death+note"
+      },
+      {
+        "id": 7,
+        "name": "Naruto",
+        "rating": "7.89",
+        "description": "Naruto dreams of becoming Hokage despite being shunned.",
+        "image": "nr.jpg",
+        "link": "https://9animetv.to/search?keyword=naruto"
+      },
+      {
+        "id": 8,
+        "name": "Demon Slayer",
+        "rating": "8.57",
+        "description": "Tanjirou vows to save his demon-turned sister.",
+        "image": "DS.jpg",
+        "link": "https://9animetv.to/search?keyword=demon+slayer+"
+      },
+      {
+        "id": 9,
+        "name": "The Apothecary Diaries",
+        "rating": "8.92",
+        "description": "An apothecary solves court mysteries with her skills.",
+        "image": "AP.jpg",
+        "link": "https://9animetv.to/search?keyword=the+apothecary+diaries"
+      },
+      {
+        "id": 10,
+        "name": "Tasokare Hotel",
+        "rating": "7.8",
+        "description": "A woman in a twilight hotel seeks her lost memories.",
+        "image": "tk.jpg",
+        "link": "https://9animetv.to/search?keyword=tasokare+hotel"
+      },
+      {
+        "id": 11,
+        "name": "Wind Breaker",
+        "rating": "7.86",
+        "description": "Sakura fights to protect his town and find acceptance.",
+        "image": "wb.jpg",
+        "link": "https://9animetv.to/search?keyword=wind+breaker+"
+      },
+      {
+        "id": 12,
+        "name": "Erased",
+        "rating": "8.32",
+        "description": " Satoru travels to stop a murder in the past.",
+        "image": "e.jpg",
+        "link": "https://9animetv.to/search?keyword=erased"
+      },
+      {
+        "id": 13,
+        "name": "Fruits Basket",
+        "rating": "8.23",
+        "description": "Tooru learns the Souma family's Zodiac curse.",
+        "image": "fb.jpg",
+        "link": "https://example.com/attack-on-titan"
+      },
+      {
+        "id": 14,
+        "name": "Hunter x Hunter ",
+        "rating": "8.4",
+        "description": "Gon takes a deadly exam to become a Hunter.",
+        "image": "hh.jpg",
+        "link": "https://9animetv.to/search?keyword=hunter+hunter+"
+      },
+      {
+        "id": 15,
+        "name": "Mushoku Tensei",
+        "rating": "8.3",
+        "description": "A shut-in reincarnates to start a magical new life.",
+        "image": "mt.jpg",
+        "link": "https://9animetv.to/search?keyword=mushoku+tensei"
+      },
+      {
+        "id": 16,
+        "name": "Sakamoto Days",
+        "rating": "7.1",
+        "description": "A retired hitman protects his family without killing.",
+        "image": "sd.jpg",
+        "link": "https://9animetv.to/search?keyword=sakamoto+days"
+      },
+      {
+        "id": 17,
+        "name": "Blue Lock",
+        "rating": "8.41",
+        "description": "Isagi joins a cutthroat soccer program to be the best.",
+        "image": "bl.jpg",
+        "link": "https://9animetv.to/search?keyword=blue+lock"
+      },
+      {
+        "id": 18,
+        "name": "Bleach",
+        "rating": "7.8",
+        "description": "Ichigo becomes a Soul Reaper to fight Hollows.",
+        "image": "bb.jpg",
+        "link": "https://9animetv.to/search?keyword=bleach"
+      }
+  ]
