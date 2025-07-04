@@ -35,7 +35,7 @@ const Capture = () => {
           faceapi.nets.tinyFaceDetector.loadFromUri(MODEL_URL),
           faceapi.nets.faceExpressionNet.loadFromUri(MODEL_URL),
           faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
-          faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL),
+           faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL),
         ]);
         console.log("Face-api.js models loaded successfully");
         setModelsLoaded(true);

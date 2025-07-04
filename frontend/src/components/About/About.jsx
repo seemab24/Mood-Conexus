@@ -1,6 +1,8 @@
 //import React from "react";
 import Navigation from "../navigation/Navigation";
 import Footer from "../footer/Footer";
+//  import { Link } from "react-router-dom"; // ✅ Step 1: Import Link
+
 
 const About = ({ theme, changeTheme }) => {
   // Define theme-specific styles
@@ -62,6 +64,15 @@ const About = ({ theme, changeTheme }) => {
             </p>
           </div>
         </div>
+        {/* ✅ Add button under content
+        <div className="mt-12 text-center">
+          <Link
+            to="/resources"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg text-md font-medium transition duration-300"
+          >
+            Go to Resources
+          </Link>
+        </div> */}
       </div>
 
       {/* Footer Component */}

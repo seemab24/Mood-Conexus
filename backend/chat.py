@@ -2,15 +2,16 @@ from flask import Blueprint, request, jsonify
 import requests
 import re
 import os
-from dotenv import load_dotenv  # ✅ Add this
+from dotenv import load_dotenv  
 
-# ✅ Load environment variables from .env file
+#  Load environment variables from .env file
 load_dotenv()
 
-# ✅ Securely get the API key from environment
+#  Securely get the API key from environment
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 chat_bp = Blueprint('chat', __name__)
+
 
 def format_reply(text):
     text = re.sub(r'\*\*\s+', '**', text)
@@ -20,6 +21,7 @@ def format_reply(text):
     lines = [line.strip() for line in text.splitlines()]
     clean_text = '\n'.join([line for line in lines if line])
     return clean_text.strip()
+
 
 @chat_bp.route('/chat', methods=['POST'])
 def chat():
@@ -49,6 +51,8 @@ def chat():
                             "- Be emotion-aware: respond differently for sadness 😢, happiness 😄, or excitement😊✨.\n"
                             "- Always respond naturally to what the user says without asking unnecessary questions.\n"
                             "- Format your reply cleanly using line breaks.\n"
+                            "- When recommending anime, suggest they can watch it on https://9animetv.to/ 🎬.\n"
+                            "- When recommending books, suggest they can download from https://oceanofpdf.com/ 📖.\n"
                         )
                     },
                     {

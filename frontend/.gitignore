@@ -1,27 +1,45 @@
-# ========================
-# FRONTEND (Vite / React)
-# ========================
+# ========== Node.js / Vite (Frontend) ==========
 node_modules/
 dist/
 dist-ssr/
 *.local
 
-# ========================
-# BACKEND (Python / Flask)
-# ========================
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========== Python (Backend) ==========
 __pycache__/
 *.py[cod]
-*.pkl
-*.joblib
-*.h5
-*.sqlite3
-.env
-.env.*
+*.pyo
+*.pyd
+*.so
 
-# ========================
-# IDE / Editors
-# ========================
-.vscode/*
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# ========== Environment & Secrets ==========
+.env
+*.env
+firebase_config.py
+serviceAccountKey.json
+firebaseconfig.json
+
+# ========== Excel / Dataset Files ==========
+*.xlsx
+*.xls
+*.csv
+
+# ========== Editor / System Files ==========
+.vscode/
 !.vscode/extensions.json
 .idea/
 .DS_Store
@@ -31,19 +49,7 @@ __pycache__/
 *.sln
 *.sw?
 
-# ========================
-# Logs
-# ========================
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-# ========================
-# Firebase Credentials (Important)
-# ========================
-serviceAccountKey.json
-firebase_config/*.json
+# ========== OS-specific ==========
+Thumbs.db
+ehthumbs.db
+desktop.ini

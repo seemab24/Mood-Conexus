@@ -141,7 +141,10 @@ const Home = () => {
       setTheme("red");
     } else if (theme === "red") {
       setTheme("green");
-    } else {
+    }//else if (theme === "green") {
+    //   setTheme("pink");
+    // }
+     else {
       setTheme("purple");
     }
   };
@@ -321,6 +324,13 @@ const Home = () => {
       buttonHoverColor: "hover:bg-green-600",
       sliderBgColor: "bg-green-700",
     },
+    pink: {
+      bgColor: "bg-pink-800",
+      textColor: "text-pink-200",
+      buttonColor: "bg-pink-500",
+      buttonHoverColor: "hover:bg-pink-600",
+      sliderBgColor: "bg-pink-700",
+    },
   };
 
   return (
@@ -354,8 +364,19 @@ const Home = () => {
             aria-label="Capture Mood"
           >
             Capture Mood
+
+            
           </Link>
+
+          {/* <Link
+             to="/resources"
+             className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} fixed bottom-8 left-8 text-white text-center px-6 py-3 rounded-lg text-lg font-bold transition duration-300`}
+             aria-label="Go to Resources"
+>
+               View Resources
+          </Link> */}
         </div>
+        
         {/* Right side div */}
         <div className="flex items-center justify-center">
           <img
@@ -386,7 +407,7 @@ const Home = () => {
                       <img
                         src={anime.image}
                         alt={anime.name}
-                        className="w-48 h-48 object-center rounded-lg mb-4 mx-auto"
+                        className="w-52 h-60 object-center rounded-lg mb-4 mx-auto"
                       />
                       <h2
                         className={`text-2xl font-bold ${themeStyles[theme].textColor} mb-2`}
@@ -425,14 +446,14 @@ const Home = () => {
           </div>
         )}
         <button
-          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-1/2 left-4 transform -translate-y-1/2 p-3 rounded-full`}
+          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-40 left-8 transform -translate-y-1/2 p-3 rounded-full`}
           onClick={handlePrevious}
           aria-label="Previous Slide"
         >
           &lt;
         </button>
         <button
-          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-1/2 right-4 transform -translate-y-1/2 p-3 rounded-full`}
+          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-40 right-8 transform -translate-y-1/2 p-3 rounded-full`}
           onClick={handleNext}
           aria-label="Next Slide"
         >
@@ -460,7 +481,7 @@ const Home = () => {
                       <img
                         src={book.image}
                         alt={book.name}
-                        className="w-48 h-48 object-center rounded-lg mb-4 mx-auto"
+                        className="w-52 h-60 object-center rounded-lg mb-4 mx-auto"
                       />
                       <h2
                         className={`text-2xl font-bold ${themeStyles[theme].textColor} mb-2`}
@@ -499,14 +520,14 @@ const Home = () => {
           </div>
         )}
         <button
-          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-1/2 left-4 transform -translate-y-1/2 p-3 rounded-full`}
+          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-40 left-8 transform -translate-y-1/2 p-3 rounded-full`}
           onClick={handlePrevious}
           aria-label="Previous Slide"
         >
           &lt;
         </button>
         <button
-          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-1/2 right-4 transform -translate-y-1/2 p-3 rounded-full`}
+          className={`${themeStyles[theme].buttonColor} ${themeStyles[theme].buttonHoverColor} absolute top-40 right-8 transform -translate-y-1/2 p-3 rounded-full`}
           onClick={handleNext}
           aria-label="Next Slide"
         >
@@ -521,6 +542,8 @@ const Home = () => {
       >
         Click me
       </button>
+
+      
 
       <Footer />
     </div>
