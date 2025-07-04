@@ -53,3 +53,12 @@ firebaseconfig.json
 Thumbs.db
 ehthumbs.db
 desktop.ini
+
+
+# Secrets
+.env
+*.env
+serviceAccountKey.json
+firebase_config.py
+firebaseconfig.json
+
