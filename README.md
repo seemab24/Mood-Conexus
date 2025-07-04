@@ -1,4 +1,4 @@
-# 🌟 Mood Conexus – Real-Time Emotion-Based Recommendation System
+# 🎭 Mood Conexus – Real-Time Emotion-Based Recommendation System
 
 **Mood Conexus** is an AI-powered full-stack application that detects user emotions in real time via webcam and recommends personalized **books** and **anime** based on emotional context. It combines emotion recognition, NLP chatbot assistance, and smart filtering logic to provide a mood-aware recommendation experience.
 
@@ -130,6 +130,55 @@ Ensure backend is running at http://localhost:5000/ for proper communication.
 | Backend server offline               | System Failure   | Flask API is not reachable                         | Error message shown in frontend, with retry or offline fallback     |
 | API key invalid/missing              | Configuration    | Groq or Firebase credentials missing or incorrect  | Secure error logging + notification to developer                    |
 
+## 🖼️ Project Screenshots
+
+### 🏠 Homepage Views
+
+#### 🔹 Main Homepage
+![Homepage](./frontend/src/assets/homepage.jpg)
+
+#### 🔹 Alternate Homepages
+![Homepage 2](./frontend/src/assets/home%20page%202.jpg)  
+![Homepage 3](./frontend/src/assets/homepage%203.jpg)
+
+---
+
+### 🤖 Chatbot Conversations
+
+#### 💬 Chat Interaction 1
+![Chatbot 1](./frontend/src/assets/chatbot%201.jpg)
+
+#### 💬 Chat Interaction 2
+![Chatbot 2](./frontend/src/assets/chatbot%202.jpg)
+
+---
+
+### 📸 Emotion Capture Interface
+
+#### 🎥 Mood Capture Screen
+![Capture](./frontend/src/assets/capture.jpg)
+
+---
+
+### 📇 Informational Sections
+
+#### 📖 About Page
+![About](./frontend/src/assets/about.jpg)
+
+#### 📬 Contact Page
+![Contact](./frontend/src/assets/contact%20page.jpg)
+
+---
+
+### ❤️ User Favorites & Recommendations
+
+#### ⭐ Favorite Anime/Books
+![My Favorites](./frontend/src/assets/my%20fav.jpg)  
+![My Favorites 2](./frontend/src/assets/my%20fav%202.jpg)
+
+#### 📚 Personalized Recommendations
+![Recommendations 1](./frontend/src/assets/recommendations%201.jpg)  
+![Recommendations 2](./frontend/src/assets/recommended%202.jpg)
 
 
 ### 📄 License
